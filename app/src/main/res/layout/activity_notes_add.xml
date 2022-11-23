@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NotesAddActivity">
+    tools:context=".NotesAddActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:textColor="#282A3A"
+        android:textColorHint="#282A3A"
+        android:background="@null"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <EditText
+        android:id="@+id/edtDece"
+        android:inputType="text"
+        android:textColor="#282A3A"
+        android:textColorHint="#282A3A"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:background="@null"
+        android:textSize="15sp"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:background="#5DA7DB"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

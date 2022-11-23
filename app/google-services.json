@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000768526095",
+    "project_id": "wscubefirestore-34248",
+    "storage_bucket": "wscubefirestore-34248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000768526095:android:ddf32b045085a3f289d07a",
+        "android_client_info": {
+          "package_name": "com.wscube_fire_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000768526095-u3p6c0v1cvtlpq3d9pptk8hlqj3bl726.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu0m4gTRbb5-OopveoxgcbPuZeuku8rfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000768526095-u3p6c0v1cvtlpq3d9pptk8hlqj3bl726.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
