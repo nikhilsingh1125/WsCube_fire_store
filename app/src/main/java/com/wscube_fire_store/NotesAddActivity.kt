@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
+import android.view.View
 import android.widget.EditText
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import com.google.firebase.firestore.FirebaseFirestore
@@ -36,6 +39,15 @@ class NotesAddActivity : AppCompatActivity() {
 
          title = findViewById<EditText>(R.id.edtTitle)
          context = findViewById<EditText>(R.id.edtDece)
+
+        val back = findViewById<ImageView>(R.id.actbar_back)
+        back.visibility = View.VISIBLE
+        val act_title = findViewById<TextView>(R.id.actbar_title)
+        act_title.text = "Add Notes"
+
+        back.setOnClickListener {
+            onBackPressed()
+        }
 
 
         if (edit.equals("Y"))
